@@ -37,7 +37,7 @@ public class ZagreusApplication {
 
   List<String> crewVNeckDescription() {
     ArrayList<String> descriptions = new ArrayList<>();
-    descriptions.add("Our exclusive ULTRA COMFORTABLE Holster Shirt for Concealed Carry features compression fit with ambidextrous right and left draw gun and mag pockets, and a lightweight all-season moisture-wicking fabric designed to keep your body cool and dry year-round.")
+    descriptions.add("Our exclusive ULTRA COMFORTABLE Holster Shirt for Concealed Carry features compression fit with ambidextrous right and left draw gun and mag pockets, and a lightweight all-season moisture-wicking fabric designed to keep your body cool and dry year-round.");
     descriptions.add("Sewn with special FLAT SEAMS to eliminate friction and chafing, and DUAL CUSHIONS for all-day comfort when you carry!");
     descriptions.add("Makes an excellent WORKOUT SHIRT that will carry your personal gear hands free!");
     descriptions.add("EXTRA DEEP right and left holster pockets with Velcro closures carry concealed weapons safely and securely.");
@@ -104,7 +104,7 @@ public class ZagreusApplication {
   }
   List<String> tankTopDescription() {
     ArrayList<String> descriptions = new ArrayList<>();
-    descriptions.add("Our exclusive ULTRA COMFORTABLE tank top holster shirt uses a special lightweight all-season moisture-wicking fabric designed to keep you cool and dry year-round.")
+    descriptions.add("Our exclusive ULTRA COMFORTABLE tank top holster shirt uses a special lightweight all-season moisture-wicking fabric designed to keep you cool and dry year-round.");
     descriptions.add("Sewn with special FLAT SEAMS to eliminate friction and chafing for all-day comfort when you carry!");
     descriptions.add("Makes an excellent WORKOUT SHIRT that will carry your personal gear hands-free without restricting movement!");
     descriptions.add("Ambidextrous right and left hand draw holster pockets feature SILENT DRAW safety straps to carry concealed weapons safely and securely.");

@@ -2,8 +2,8 @@ package com.ccwtac.zagreus.service;
 
 import com.ccwtac.zagreus.model.Order;
 import com.ccwtac.zagreus.repository.OrderRepository;
-import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 

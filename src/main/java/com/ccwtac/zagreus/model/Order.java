@@ -3,8 +3,6 @@ package com.ccwtac.zagreus.model;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.annotation.Transient;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

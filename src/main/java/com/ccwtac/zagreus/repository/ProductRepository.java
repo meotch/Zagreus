@@ -2,9 +2,11 @@ package com.ccwtac.zagreus.repository;
 
 import com.ccwtac.zagreus.model.Product;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+@Repository
 public class ProductRepository implements CrudRepository<Product, Long> {
     @Override
     public <S extends Product> S save(S entity) {
