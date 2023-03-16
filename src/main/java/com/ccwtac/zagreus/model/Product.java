@@ -3,6 +3,8 @@ package com.ccwtac.zagreus.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 @Entity
 public class Product {
@@ -11,6 +13,8 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private List<String> descriptions;
+
     @Basic(optional = false)
     private String name;
 
@@ -18,11 +22,12 @@ public class Product {
 
     private String pictureUrl;
 
-    public Product(Long id, String name, Double price, String pictureUrl) {
+    public Product(Long id, String name, Double price, String pictureUrl, List<String> descriptions) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.pictureUrl = pictureUrl;
+        this.descriptions = descriptions;
     }
 
     public Product() {
