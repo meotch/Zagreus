@@ -1,6 +1,6 @@
 # Zagreus
 
-![](C:\Workspace\Zagreus\Zagreus.jpg)
+![](https://github.com/meotch/Zagreus/blob/c9102c6c2acbce7d47ad627b879ab801aff66a05/Zagreus.jpg)
 
 ToDo
 <ul>
